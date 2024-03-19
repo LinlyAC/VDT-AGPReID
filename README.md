@@ -21,12 +21,16 @@ Dataset Link: [Google Drive](https://drive.google.com/file/d/1yDjyH0VtW7efxP3vgQ
 
 ### Annotation
 Annotations are preserved in the name of each image by the format ``camID_time_personID_index.jpg''. 
-```
-For example, ``Cam2_day_2519_320.jpg'' means that:
+<table><td bgcolor=pink> 
+ For example, ``Cam2_day_2519_320.jpg'' means that:
 * Camera id is 2, and it belongs to the aerial view.
 * Capture time is day. (day or night)
 * Person id is 2519.
 * Index is 320. (It has no practical meaning.)
+</table>
+
+```
+
 ```
 
 ### License
