@@ -27,7 +27,7 @@ For example, ``Cam2_day_2519_320.jpg'' means that:
 * Capture time is day. (day or night)
 * Person id is 2519.
 * Index is 320. (It has no practical meaning.)
-'''
+```
 
 ### License
 * The datasets can only be used for ACADEMIC PURPOSES. NO COMERCIAL USE is allowed.
