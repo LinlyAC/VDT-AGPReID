@@ -60,7 +60,7 @@ If you find this code useful for your research, please kindly cite the following
 ```
 @InProceedings{Zhang_2022_CVPR,
     author    = {Zhang, Quan and Wang, Lei and Patel, Vishal M. and Xie, Xiaohua and Lai, Jian-Huang},
-    title     = {Modeling 3D Layout for Group Re-Identification},
+    title     = {View-decoupled Transformer for Person Re-identification under Aerial-ground Camera Network},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
     year      = {2024}
 }
