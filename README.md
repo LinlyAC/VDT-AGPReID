@@ -21,11 +21,11 @@ View-decoupled Transformer for Person Re-identification under Aerial-ground Came
 ### Annotation
 Annotations are preserved in the name of each image by the format ``camID_time_personID_index.jpg''. 
 
- For example, ``Cam2_day_2519_320.jpg'' means that:
-* Camera id is 2, and it belongs to the aerial view.
-* Capture time is day. (day or night)
-* Person id is 2519.
-* Index is 320. (It has no practical meaning for you.)
+> For example, ``Cam2_day_2519_320.jpg'' means that:
+> * Camera id is 2, and it belongs to the aerial view.
+> * Capture time is day. (day or night)
+> * Person id is 2519.
+> * Index is 320. (It has no practical meaning for you.)
 
 ### License
 * The datasets can only be used for ACADEMIC PURPOSES. NO COMERCIAL USE is allowed.
