@@ -38,12 +38,12 @@ Annotations are preserved in the name of each image by the format ``camID_time_p
 Please refer to [INSTALL.md](./INSTALL.md).
 
 #### Step2: Prepare datasets
-Download the CCGReID dataset and modify the dataset path.
+Download the CARGO dataset and modify the dataset path.
 Line 22, 60, 100 and 140 in  [cargo.py](./fastreid/data/datasets/cargo.py) .
 > self.data_dir = XXX
 
 #### Step3: Prepare ViT Pre-trained Models
-Download the ViT-base Pre-trained model and modify the path, line 11 in [VDT.yml](./configs/CARGO/VDT.yml):
+Download the ViT-base Pre-trained model and modify the path. Line 11 in [VDT.yml](./configs/CARGO/VDT.yml):
 > PRETRAIN_PATH: XXX
 
 ### Training & Testing
