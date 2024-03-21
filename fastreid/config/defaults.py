@@ -58,8 +58,6 @@ _C.MODEL.BACKBONE.PRETRAIN = False
 _C.MODEL.BACKBONE.PRETRAIN_PATH = ''
 
 # num query in decoder
-_C.MODEL.BACKBONE.NUM_QUERY = 0
-_C.MODEL.BACKBONE.NUM_DECODER = 0
 _C.MODEL.BACKBONE.INNER_SUB = True
 
 # ---------------------------------------------------------------------------- #
