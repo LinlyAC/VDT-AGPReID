@@ -58,7 +58,7 @@ Codebase from [fast-reid](https://github.com/JDAI-CV/fast-reid). So please refer
 ## [3] Citation
 If you find this code useful for your research, please kindly cite the following papers:
 ```
-@InProceedings{Zhang_2022_CVPR,
+@InProceedings{Zhang_2024_CVPR,
     author    = {Zhang, Quan and Wang, Lei and Patel, Vishal M. and Xie, Xiaohua and Lai, Jian-Huang},
     title     = {View-decoupled Transformer for Person Re-identification under Aerial-ground Camera Network},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
