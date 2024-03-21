@@ -2,7 +2,7 @@
 View-decoupled Transformer for Person Re-identification under Aerial-ground Camera Network (CVPR'24)
 
 ## [0] Dataset: CARGO
-
+![CARGO](CARGO.jpg)
 ### Introduction
 * CARGO is a large-scale aerial-ground person re-identification (AGPReID) dataset, which captured from a synthesized scene in Unity3D.
 * CARGO contains 13 cameras (8 ground and 5 aerial cameras), 5000 person IDs, and 108563 person images.
@@ -32,6 +32,7 @@ Annotations are preserved in the name of each image by the format ``camID_time_p
 * Copyright © Sun Yat-sen University. All rights reserved.
 
 ## [1] Method: View-decoupled Transformer
+![VDT](VDT.png)
 ### Requirements
 #### Step1: Prepare enviorments
 Please refer to [INSTALL.md](./INSTALL.md).
