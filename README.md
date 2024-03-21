@@ -33,3 +33,22 @@ Annotations are preserved in the name of each image by the format ``camID_time_p
 * Copyright © Sun Yat-sen University. All rights reserved.
 
 ## [1] Method: View-decoupled Transformer
+### Requirements
+#### Step1: Prepare enviorments
+Please refer to [INSTALL.md](./INSTALL.md).
+
+#### Step2: Prepare datasets
+Download the CCGReID dataset and modify the dataset path.
+Line 22, 60, 100 and 140 in  [cargo.py](./fastreid/data/datasets/cargo.py) .
+> self.data_dir = XXX
+
+#### Step3: Prepare ViT Pre-trained Models
+Download the ViT-base Pre-trained model and modify the path, line 11 in [VDT.yml](./configs/CARGO/VDT.yml):
+> PRETRAIN_PATH: XXX
+
+### Training & Testing
+Single or multiple GPU training is supported.
+
+
+## Acknowledgement
+Codebase from [fast-reid](https://github.com/JDAI-CV/fast-reid). So please refer to that repository for more usage.
