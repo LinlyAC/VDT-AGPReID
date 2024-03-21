@@ -47,8 +47,23 @@ Download the ViT-base Pre-trained model and modify the path, line 11 in [VDT.yml
 > PRETRAIN_PATH: XXX
 
 ### Training & Testing
-Single or multiple GPU training is supported.
+Training VDT on the CARGO dataset with one GPU:
+> CUDA_VISIBLE_DEVICES=0 python3 tools/train_net.py --config-file ./configs/CARGO/VDT.yml MODEL.DEVICE "cuda:0"
 
+Testing VDT on the CARGO dataset:
+> CUDA_VISIBLE_DEVICES=1 python3 tools/train_net.py --config-file ./configs/CARGO/VDT.yml --eval-only MODEL.WEIGHTS your_model_pth_path MODEL.DEVICE "cuda:0"
 
-## Acknowledgement
+### Acknowledgement
 Codebase from [fast-reid](https://github.com/JDAI-CV/fast-reid). So please refer to that repository for more usage.
+
+## [3] Citation
+If you find this code useful for your research, please kindly cite the following papers:
+```
+@InProceedings{Zhang_2022_CVPR,
+    author    = {Zhang, Quan and Wang, Lei and Patel, Vishal M. and Xie, Xiaohua and Lai, Jian-Huang},
+    title     = {Modeling 3D Layout for Group Re-Identification},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    year      = {2024}
+}
+```
+If you have any question, please feel free to contact me. E-mail: zhangq48@mail2.sysu.edu.cn
